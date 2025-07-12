@@ -8,8 +8,6 @@ Objetivo: Além de entreter, o projeto demonstra como ferramentas de low-code po
 
 Tecnologias Utilizadas Construct 3: Plataforma low-code para desenvolvimento visual e lógica baseada em eventos.
 
-HTML5 & JavaScript: Exportação do jogo para web, permitindo que ele seja jogado diretamente no navegador.
-
 Funcionalidades Mecânicas Interativas: O jogo dispõe de mecânicas simples de movimentação e colisões.
 
 Animações e Cenário: Elementos visuais que compõem oa caracteristica 8bit.
