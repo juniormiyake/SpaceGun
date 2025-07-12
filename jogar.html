@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Space Gun</title>
+	<link rel="shortcut icon" href="imagens/icon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+	<header>
+		<a href="index.html" title="home" class="home">
+			<img src="imagens/icon.png" alt="Space Gun" title="Space Gun">
+		</a>
+		<a href="javascript:mostrarmenu()" class="menu">
+			<i class="fa-solid fa-bars"></i>
+		</a>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html" title="Home">
+						<i class="fa-solid fa-rocket"></i>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="sobre.html" title="Sobre">
+						<i class="fa-solid fa-book-open"></i>
+						Sobre
+					</a>
+				</li>
+				<li>
+					<a href="jogar.html" title="Jogar">
+						<i class="fa-solid fa-gamepad"></i>
+						Jogar
+					</a>
+				</li>
+				<li>
+					<a href="contato.html" title="Contato">
+						<i class="fa-solid fa-envelope"></i>
+						Contato
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="banner">
+		<img src="imagens/banner2.png" alt="Banner" title="Banner" >
+	</div>
+
+	<main>
+		<h1>Space Gun</h1>
+	<br>
+  	
+	<div class="jogo">
+    <iframe src="jogo/index.html" width="480" height="850"></iframe>
+  	</div>
+
+  	<br><br>
+
+	</main>
+	<footer>
+		<p>Todos os direitos reservados.🚀</p>
+	</footer>
+	<script>
+		function mostrarmenu() {
+			document.querySelector("header nav").classList.toggle("mostrar");
+		}
+	</script>
+</body>
+</html>
