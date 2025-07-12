@@ -2,7 +2,7 @@
 
 Bem-vindo ao Space Gun – um jogo desenvolvido com Construct 3 como parte de um projeto acadêmico no Centro Universitário Integrado.
 
-Ideia e Propósito Conceito: O jogo apresenta a jornada da nave Starbyte, desafiando a Ordem do Reset.
+Ideia e Propósito: O jogo apresenta a jornada da nave Starbyte, desafiando a Ordem do Reset.
 
 Objetivo: Além de entreter, o projeto demonstra como ferramentas de low-code podem democratizar o desenvolvimento de jogos, permitindo que ideias inovadoras.
 
