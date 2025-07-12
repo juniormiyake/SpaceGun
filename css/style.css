@@ -1,0 +1,151 @@
+body {
+	margin:0;
+	font-family: Space Mono, Arial;
+	font-size: 25px;
+}
+header {
+	width: 100%;
+	background: #371F76;
+	padding: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	top: 0;
+}
+header nav {
+	float: right;
+	margin-right: 20px
+}
+header nav ul {
+	list-style: none;
+}
+header nav ul li {
+	display: inline-block;
+	margin: 20px;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: #FFF;
+	font-weight: 800;
+	transition: all .5s;
+}
+header nav ul li a:hover {
+	color: yellow;
+}
+.banner img {
+	width: 100%;
+}
+.home img {
+	width: 130px;
+	height: 130px;
+}
+.center a {
+	text-align: center;
+	text-decoration: none;
+	adding: 10px 30px;
+	color: #000;
+	border-radius: 100px;
+	transition: all .5s;
+}
+.btn:hover {
+background: #371F76;
+color: #FFF;
+}
+.center {
+	text-align: center;
+	text-decoration: none;
+}
+.mail {
+	text-decoration: none;
+	adding: 10px 30px;
+	color: #000;
+	border-radius: 100px;
+	transition: all .5s;
+}
+.mail:hover {
+	background: #371F76;
+	color: #FFF;
+}
+.formulario {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+}
+div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+main h1, footer p {
+	text-align: center;
+}
+main {
+	width: 1000px;
+	margin: auto;
+	text-align: justify;
+}
+footer {
+	background: #371F76;
+	padding: 10px 0;
+	color: #FFF;
+}
+footer a {
+	text-decoration: none;
+	margin: 10px;
+	color: #FFF;
+	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	transition: all .5s;
+}
+footer a:hover {
+	color: yellow;
+}
+.menu {
+	display: none;
+}
+.mostrar {
+	display: block;
+}
+
+@media (max-width: 600px) {
+	p {
+		font-size: 75%;
+	}
+	.banner {
+		display: none;
+	}
+	main {
+		width: 100%;
+	}
+	.grid {
+		grid-template-columns: 100%;
+	}
+	header nav ul {
+		display: block;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	header nav ul li {
+		width: 100%;
+	}
+	header nav {
+		display: none;
+	}
+	header img {
+		width: 300px;
+	}
+	.menu {
+		display: block;
+		border: 1px solid #FFF;
+		padding: 15px 10px;
+		color: #FFF;
+		float: right;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+}
