@@ -20,9 +20,6 @@ O jogo está disponível online! Clique no link a seguir para jogar:
 
 Utilize as setas do teclado para controlar e a barra de espaço para atirar.
 
-
-A Experiência de Criar um Jogo com Low-Code Desenvolver o Pineapple Rush foi uma experiência enriquecedora que demonstrou como o low-code pode transformar ideias em realidade. Essa abordagem permite que novos criadores se envolvam com conceitos de game design e lógica de programação, sem a necessidade de conhecimentos avançados de código.
-
 Contato Se você tiver sugestões, críticas ou quiser conversar sobre o projeto, entre em contato através do formulário disponível na seção de Contato do site.
 
 Desenvolvido por Junior Miyake.
